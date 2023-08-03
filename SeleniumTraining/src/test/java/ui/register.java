@@ -51,7 +51,7 @@ public class register {
         driver.findElement(By.xpath(Currencie.UGX)).click(); Thread.sleep(3000);		    		
         driver.findElement(By.xpath(Buttons.registerButton)).click();
 		
-		// Open a new tab using JavaScript
+		// Open a new tab using JavaScript ddd
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.open();");
         
